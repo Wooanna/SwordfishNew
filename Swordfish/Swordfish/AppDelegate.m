@@ -2,13 +2,13 @@
 //  AppDelegate.m
 //  Swordfish
 //
-//  Created by Yoanna Mareva on 6/15/15.
+//  Created by Yoanna Mareva on 6/23/15.
 //  Copyright (c) 2015 Yoanna Mareva. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <RevMobAdsDelegate>
 
 @end
 
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [RevMobAds startSessionWithAppID:@"5584210205b1e506726e480f" withSuccessHandler:^{
+        [self.rewardedVideo showRewardedVideo];
+    } andFailHandler:^(NSError *error) {
+      
+    }];
+
+
     return YES;
 }
 
@@ -36,6 +43,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    self.rewardedVideo = [[RevMobAds session] fullscreen];
+    self.rewardedVideo.delegate = self;
+    [self.rewardedVideo loadRewardedVideo];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

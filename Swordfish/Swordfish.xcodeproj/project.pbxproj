@@ -7,55 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B46C8B51B2EE9B10021B2A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B46C8B41B2EE9B10021B2A2 /* main.m */; };
-		1B46C8B81B2EE9B10021B2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B46C8B71B2EE9B10021B2A2 /* AppDelegate.m */; };
-		1B46C8BB1B2EE9B10021B2A2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B46C8BA1B2EE9B10021B2A2 /* GameScene.m */; };
-		1B46C8BD1B2EE9B10021B2A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B46C8BC1B2EE9B10021B2A2 /* GameScene.sks */; };
-		1B46C8C01B2EE9B10021B2A2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B46C8BF1B2EE9B10021B2A2 /* GameViewController.m */; };
-		1B46C8C31B2EE9B10021B2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46C8C11B2EE9B10021B2A2 /* Main.storyboard */; };
-		1B46C8C51B2EE9B10021B2A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B46C8C41B2EE9B10021B2A2 /* Images.xcassets */; };
-		1B46C8C81B2EE9B10021B2A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B46C8C61B2EE9B10021B2A2 /* LaunchScreen.xib */; };
-		1B46C8D41B2EE9B10021B2A2 /* SwordfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B46C8D31B2EE9B10021B2A2 /* SwordfishTests.m */; };
+		1B3816791B39A8DB00DB0D83 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816781B39A8DB00DB0D83 /* AdSupport.framework */; };
+		1B38167B1B39A8E400DB0D83 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B38167A1B39A8E400DB0D83 /* StoreKit.framework */; };
+		1B38167D1B39A8EF00DB0D83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B38167C1B39A8EF00DB0D83 /* SystemConfiguration.framework */; };
+		1B38167F1B39A91B00DB0D83 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B38167E1B39A91B00DB0D83 /* MediaPlayer.framework */; };
+		1B3816811B39A93000DB0D83 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816801B39A93000DB0D83 /* RevMobAds.framework */; };
+		1B3816831B39AA3600DB0D83 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816821B39AA3600DB0D83 /* CoreLocation.framework */; };
+		1B3816851B39AAA700DB0D83 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816841B39AAA700DB0D83 /* CoreMedia.framework */; };
+		1B3816871B39AAB100DB0D83 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816861B39AAB100DB0D83 /* CoreAudio.framework */; };
+		1B3816891B39AAC100DB0D83 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3816881B39AAC100DB0D83 /* AVFoundation.framework */; };
+		1B4D0AB11B3988B80034A83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D0AB01B3988B80034A83E /* main.m */; };
+		1B4D0AB41B3988B80034A83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D0AB31B3988B80034A83E /* AppDelegate.m */; };
+		1B4D0AB71B3988B80034A83E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D0AB61B3988B80034A83E /* GameScene.m */; };
+		1B4D0AB91B3988B80034A83E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D0AB81B3988B80034A83E /* GameScene.sks */; };
+		1B4D0ABC1B3988B80034A83E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D0ABB1B3988B80034A83E /* GameViewController.m */; };
+		1B4D0ABF1B3988B80034A83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D0ABD1B3988B80034A83E /* Main.storyboard */; };
+		1B4D0AC11B3988B80034A83E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D0AC01B3988B80034A83E /* Images.xcassets */; };
+		1B4D0AC41B3988B80034A83E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D0AC21B3988B80034A83E /* LaunchScreen.xib */; };
+		1B4D0AD01B3988B80034A83E /* SwordfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D0ACF1B3988B80034A83E /* SwordfishTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B46C8CE1B2EE9B10021B2A2 /* PBXContainerItemProxy */ = {
+		1B4D0ACA1B3988B80034A83E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1B46C8A71B2EE9B10021B2A2 /* Project object */;
+			containerPortal = 1B4D0AA31B3988B80034A83E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B46C8AE1B2EE9B10021B2A2;
+			remoteGlobalIDString = 1B4D0AAA1B3988B80034A83E;
 			remoteInfo = Swordfish;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B46C8AF1B2EE9B10021B2A2 /* Swordfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swordfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B46C8B31B2EE9B10021B2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B46C8B41B2EE9B10021B2A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1B46C8B61B2EE9B10021B2A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1B46C8B71B2EE9B10021B2A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B46C8B91B2EE9B10021B2A2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		1B46C8BA1B2EE9B10021B2A2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		1B46C8BC1B2EE9B10021B2A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1B46C8BE1B2EE9B10021B2A2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		1B46C8BF1B2EE9B10021B2A2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		1B46C8C21B2EE9B10021B2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B46C8C41B2EE9B10021B2A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1B46C8C71B2EE9B10021B2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1B46C8CD1B2EE9B10021B2A2 /* SwordfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwordfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B46C8D21B2EE9B10021B2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B46C8D31B2EE9B10021B2A2 /* SwordfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordfishTests.m; sourceTree = "<group>"; };
+		1B3816781B39A8DB00DB0D83 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1B38167A1B39A8E400DB0D83 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1B38167C1B39A8EF00DB0D83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1B38167E1B39A91B00DB0D83 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1B3816801B39A93000DB0D83 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "../../../Downloads/revmob-ios-sdk 2/RevMobAds.framework"; sourceTree = "<group>"; };
+		1B3816821B39AA3600DB0D83 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B3816841B39AAA700DB0D83 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1B3816861B39AAB100DB0D83 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1B3816881B39AAC100DB0D83 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B4D0AAB1B3988B80034A83E /* Swordfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swordfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4D0AAF1B3988B80034A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4D0AB01B3988B80034A83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B4D0AB21B3988B80034A83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B4D0AB31B3988B80034A83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B4D0AB51B3988B80034A83E /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		1B4D0AB61B3988B80034A83E /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		1B4D0AB81B3988B80034A83E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1B4D0ABA1B3988B80034A83E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1B4D0ABB1B3988B80034A83E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1B4D0ABE1B3988B80034A83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B4D0AC01B3988B80034A83E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B4D0AC31B3988B80034A83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B4D0AC91B3988B80034A83E /* SwordfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwordfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4D0ACE1B3988B80034A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4D0ACF1B3988B80034A83E /* SwordfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordfishTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B46C8AC1B2EE9B10021B2A2 /* Frameworks */ = {
+		1B4D0AA81B3988B80034A83E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3816891B39AAC100DB0D83 /* AVFoundation.framework in Frameworks */,
+				1B3816871B39AAB100DB0D83 /* CoreAudio.framework in Frameworks */,
+				1B3816851B39AAA700DB0D83 /* CoreMedia.framework in Frameworks */,
+				1B3816831B39AA3600DB0D83 /* CoreLocation.framework in Frameworks */,
+				1B3816811B39A93000DB0D83 /* RevMobAds.framework in Frameworks */,
+				1B38167F1B39A91B00DB0D83 /* MediaPlayer.framework in Frameworks */,
+				1B38167D1B39A8EF00DB0D83 /* SystemConfiguration.framework in Frameworks */,
+				1B38167B1B39A8E400DB0D83 /* StoreKit.framework in Frameworks */,
+				1B3816791B39A8DB00DB0D83 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B46C8CA1B2EE9B10021B2A2 /* Frameworks */ = {
+		1B4D0AC61B3988B80034A83E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,64 +92,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B46C8A61B2EE9B10021B2A2 = {
+		1B4D0AA21B3988B80034A83E = {
 			isa = PBXGroup;
 			children = (
-				1B46C8B11B2EE9B10021B2A2 /* Swordfish */,
-				1B46C8D01B2EE9B10021B2A2 /* SwordfishTests */,
-				1B46C8B01B2EE9B10021B2A2 /* Products */,
+				1B3816881B39AAC100DB0D83 /* AVFoundation.framework */,
+				1B3816861B39AAB100DB0D83 /* CoreAudio.framework */,
+				1B3816841B39AAA700DB0D83 /* CoreMedia.framework */,
+				1B3816821B39AA3600DB0D83 /* CoreLocation.framework */,
+				1B3816801B39A93000DB0D83 /* RevMobAds.framework */,
+				1B38167E1B39A91B00DB0D83 /* MediaPlayer.framework */,
+				1B38167C1B39A8EF00DB0D83 /* SystemConfiguration.framework */,
+				1B38167A1B39A8E400DB0D83 /* StoreKit.framework */,
+				1B3816781B39A8DB00DB0D83 /* AdSupport.framework */,
+				1B4D0AAD1B3988B80034A83E /* Swordfish */,
+				1B4D0ACC1B3988B80034A83E /* SwordfishTests */,
+				1B4D0AAC1B3988B80034A83E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1B46C8B01B2EE9B10021B2A2 /* Products */ = {
+		1B4D0AAC1B3988B80034A83E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B46C8AF1B2EE9B10021B2A2 /* Swordfish.app */,
-				1B46C8CD1B2EE9B10021B2A2 /* SwordfishTests.xctest */,
+				1B4D0AAB1B3988B80034A83E /* Swordfish.app */,
+				1B4D0AC91B3988B80034A83E /* SwordfishTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B46C8B11B2EE9B10021B2A2 /* Swordfish */ = {
+		1B4D0AAD1B3988B80034A83E /* Swordfish */ = {
 			isa = PBXGroup;
 			children = (
-				1B46C8B61B2EE9B10021B2A2 /* AppDelegate.h */,
-				1B46C8B71B2EE9B10021B2A2 /* AppDelegate.m */,
-				1B46C8B91B2EE9B10021B2A2 /* GameScene.h */,
-				1B46C8BA1B2EE9B10021B2A2 /* GameScene.m */,
-				1B46C8BC1B2EE9B10021B2A2 /* GameScene.sks */,
-				1B46C8BE1B2EE9B10021B2A2 /* GameViewController.h */,
-				1B46C8BF1B2EE9B10021B2A2 /* GameViewController.m */,
-				1B46C8C11B2EE9B10021B2A2 /* Main.storyboard */,
-				1B46C8C41B2EE9B10021B2A2 /* Images.xcassets */,
-				1B46C8C61B2EE9B10021B2A2 /* LaunchScreen.xib */,
-				1B46C8B21B2EE9B10021B2A2 /* Supporting Files */,
+				1B4D0AB21B3988B80034A83E /* AppDelegate.h */,
+				1B4D0AB31B3988B80034A83E /* AppDelegate.m */,
+				1B4D0AB51B3988B80034A83E /* GameScene.h */,
+				1B4D0AB61B3988B80034A83E /* GameScene.m */,
+				1B4D0AB81B3988B80034A83E /* GameScene.sks */,
+				1B4D0ABA1B3988B80034A83E /* GameViewController.h */,
+				1B4D0ABB1B3988B80034A83E /* GameViewController.m */,
+				1B4D0ABD1B3988B80034A83E /* Main.storyboard */,
+				1B4D0AC01B3988B80034A83E /* Images.xcassets */,
+				1B4D0AC21B3988B80034A83E /* LaunchScreen.xib */,
+				1B4D0AAE1B3988B80034A83E /* Supporting Files */,
 			);
 			path = Swordfish;
 			sourceTree = "<group>";
 		};
-		1B46C8B21B2EE9B10021B2A2 /* Supporting Files */ = {
+		1B4D0AAE1B3988B80034A83E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B46C8B31B2EE9B10021B2A2 /* Info.plist */,
-				1B46C8B41B2EE9B10021B2A2 /* main.m */,
+				1B4D0AAF1B3988B80034A83E /* Info.plist */,
+				1B4D0AB01B3988B80034A83E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1B46C8D01B2EE9B10021B2A2 /* SwordfishTests */ = {
+		1B4D0ACC1B3988B80034A83E /* SwordfishTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B46C8D31B2EE9B10021B2A2 /* SwordfishTests.m */,
-				1B46C8D11B2EE9B10021B2A2 /* Supporting Files */,
+				1B4D0ACF1B3988B80034A83E /* SwordfishTests.m */,
+				1B4D0ACD1B3988B80034A83E /* Supporting Files */,
 			);
 			path = SwordfishTests;
 			sourceTree = "<group>";
 		};
-		1B46C8D11B2EE9B10021B2A2 /* Supporting Files */ = {
+		1B4D0ACD1B3988B80034A83E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B46C8D21B2EE9B10021B2A2 /* Info.plist */,
+				1B4D0ACE1B3988B80034A83E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,13 +166,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B46C8AE1B2EE9B10021B2A2 /* Swordfish */ = {
+		1B4D0AAA1B3988B80034A83E /* Swordfish */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B46C8D71B2EE9B10021B2A2 /* Build configuration list for PBXNativeTarget "Swordfish" */;
+			buildConfigurationList = 1B4D0AD31B3988B80034A83E /* Build configuration list for PBXNativeTarget "Swordfish" */;
 			buildPhases = (
-				1B46C8AB1B2EE9B10021B2A2 /* Sources */,
-				1B46C8AC1B2EE9B10021B2A2 /* Frameworks */,
-				1B46C8AD1B2EE9B10021B2A2 /* Resources */,
+				1B4D0AA71B3988B80034A83E /* Sources */,
+				1B4D0AA81B3988B80034A83E /* Frameworks */,
+				1B4D0AA91B3988B80034A83E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,46 +180,46 @@
 			);
 			name = Swordfish;
 			productName = Swordfish;
-			productReference = 1B46C8AF1B2EE9B10021B2A2 /* Swordfish.app */;
+			productReference = 1B4D0AAB1B3988B80034A83E /* Swordfish.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B46C8CC1B2EE9B10021B2A2 /* SwordfishTests */ = {
+		1B4D0AC81B3988B80034A83E /* SwordfishTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B46C8DA1B2EE9B10021B2A2 /* Build configuration list for PBXNativeTarget "SwordfishTests" */;
+			buildConfigurationList = 1B4D0AD61B3988B80034A83E /* Build configuration list for PBXNativeTarget "SwordfishTests" */;
 			buildPhases = (
-				1B46C8C91B2EE9B10021B2A2 /* Sources */,
-				1B46C8CA1B2EE9B10021B2A2 /* Frameworks */,
-				1B46C8CB1B2EE9B10021B2A2 /* Resources */,
+				1B4D0AC51B3988B80034A83E /* Sources */,
+				1B4D0AC61B3988B80034A83E /* Frameworks */,
+				1B4D0AC71B3988B80034A83E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1B46C8CF1B2EE9B10021B2A2 /* PBXTargetDependency */,
+				1B4D0ACB1B3988B80034A83E /* PBXTargetDependency */,
 			);
 			name = SwordfishTests;
 			productName = SwordfishTests;
-			productReference = 1B46C8CD1B2EE9B10021B2A2 /* SwordfishTests.xctest */;
+			productReference = 1B4D0AC91B3988B80034A83E /* SwordfishTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1B46C8A71B2EE9B10021B2A2 /* Project object */ = {
+		1B4D0AA31B3988B80034A83E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Yoanna Mareva";
 				TargetAttributes = {
-					1B46C8AE1B2EE9B10021B2A2 = {
+					1B4D0AAA1B3988B80034A83E = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					1B46C8CC1B2EE9B10021B2A2 = {
+					1B4D0AC81B3988B80034A83E = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 1B46C8AE1B2EE9B10021B2A2;
+						TestTargetID = 1B4D0AAA1B3988B80034A83E;
 					};
 				};
 			};
-			buildConfigurationList = 1B46C8AA1B2EE9B10021B2A2 /* Build configuration list for PBXProject "Swordfish" */;
+			buildConfigurationList = 1B4D0AA61B3988B80034A83E /* Build configuration list for PBXProject "Swordfish" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,30 +227,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 1B46C8A61B2EE9B10021B2A2;
-			productRefGroup = 1B46C8B01B2EE9B10021B2A2 /* Products */;
+			mainGroup = 1B4D0AA21B3988B80034A83E;
+			productRefGroup = 1B4D0AAC1B3988B80034A83E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B46C8AE1B2EE9B10021B2A2 /* Swordfish */,
-				1B46C8CC1B2EE9B10021B2A2 /* SwordfishTests */,
+				1B4D0AAA1B3988B80034A83E /* Swordfish */,
+				1B4D0AC81B3988B80034A83E /* SwordfishTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B46C8AD1B2EE9B10021B2A2 /* Resources */ = {
+		1B4D0AA91B3988B80034A83E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B46C8C81B2EE9B10021B2A2 /* LaunchScreen.xib in Resources */,
-				1B46C8C51B2EE9B10021B2A2 /* Images.xcassets in Resources */,
-				1B46C8BD1B2EE9B10021B2A2 /* GameScene.sks in Resources */,
-				1B46C8C31B2EE9B10021B2A2 /* Main.storyboard in Resources */,
+				1B4D0AC41B3988B80034A83E /* LaunchScreen.xib in Resources */,
+				1B4D0AC11B3988B80034A83E /* Images.xcassets in Resources */,
+				1B4D0AB91B3988B80034A83E /* GameScene.sks in Resources */,
+				1B4D0ABF1B3988B80034A83E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B46C8CB1B2EE9B10021B2A2 /* Resources */ = {
+		1B4D0AC71B3988B80034A83E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,48 +260,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B46C8AB1B2EE9B10021B2A2 /* Sources */ = {
+		1B4D0AA71B3988B80034A83E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B46C8C01B2EE9B10021B2A2 /* GameViewController.m in Sources */,
-				1B46C8B81B2EE9B10021B2A2 /* AppDelegate.m in Sources */,
-				1B46C8BB1B2EE9B10021B2A2 /* GameScene.m in Sources */,
-				1B46C8B51B2EE9B10021B2A2 /* main.m in Sources */,
+				1B4D0ABC1B3988B80034A83E /* GameViewController.m in Sources */,
+				1B4D0AB41B3988B80034A83E /* AppDelegate.m in Sources */,
+				1B4D0AB71B3988B80034A83E /* GameScene.m in Sources */,
+				1B4D0AB11B3988B80034A83E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B46C8C91B2EE9B10021B2A2 /* Sources */ = {
+		1B4D0AC51B3988B80034A83E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B46C8D41B2EE9B10021B2A2 /* SwordfishTests.m in Sources */,
+				1B4D0AD01B3988B80034A83E /* SwordfishTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B46C8CF1B2EE9B10021B2A2 /* PBXTargetDependency */ = {
+		1B4D0ACB1B3988B80034A83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B46C8AE1B2EE9B10021B2A2 /* Swordfish */;
-			targetProxy = 1B46C8CE1B2EE9B10021B2A2 /* PBXContainerItemProxy */;
+			target = 1B4D0AAA1B3988B80034A83E /* Swordfish */;
+			targetProxy = 1B4D0ACA1B3988B80034A83E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1B46C8C11B2EE9B10021B2A2 /* Main.storyboard */ = {
+		1B4D0ABD1B3988B80034A83E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1B46C8C21B2EE9B10021B2A2 /* Base */,
+				1B4D0ABE1B3988B80034A83E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1B46C8C61B2EE9B10021B2A2 /* LaunchScreen.xib */ = {
+		1B4D0AC21B3988B80034A83E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1B46C8C71B2EE9B10021B2A2 /* Base */,
+				1B4D0AC31B3988B80034A83E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -273,7 +309,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1B46C8D51B2EE9B10021B2A2 /* Debug */ = {
+		1B4D0AD11B3988B80034A83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		1B46C8D61B2EE9B10021B2A2 /* Release */ = {
+		1B4D0AD21B3988B80034A83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,27 +391,37 @@
 			};
 			name = Release;
 		};
-		1B46C8D81B2EE9B10021B2A2 /* Debug */ = {
+		1B4D0AD41B3988B80034A83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mareva/Downloads/revmob-ios-sdk",
+					2,
+				);
 				INFOPLIST_FILE = Swordfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1B46C8D91B2EE9B10021B2A2 /* Release */ = {
+		1B4D0AD51B3988B80034A83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mareva/Downloads/revmob-ios-sdk",
+					2,
+				);
 				INFOPLIST_FILE = Swordfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		1B46C8DB1B2EE9B10021B2A2 /* Debug */ = {
+		1B4D0AD71B3988B80034A83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -394,7 +440,7 @@
 			};
 			name = Debug;
 		};
-		1B46C8DC1B2EE9B10021B2A2 /* Release */ = {
+		1B4D0AD81B3988B80034A83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,32 +458,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B46C8AA1B2EE9B10021B2A2 /* Build configuration list for PBXProject "Swordfish" */ = {
+		1B4D0AA61B3988B80034A83E /* Build configuration list for PBXProject "Swordfish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B46C8D51B2EE9B10021B2A2 /* Debug */,
-				1B46C8D61B2EE9B10021B2A2 /* Release */,
+				1B4D0AD11B3988B80034A83E /* Debug */,
+				1B4D0AD21B3988B80034A83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B46C8D71B2EE9B10021B2A2 /* Build configuration list for PBXNativeTarget "Swordfish" */ = {
+		1B4D0AD31B3988B80034A83E /* Build configuration list for PBXNativeTarget "Swordfish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B46C8D81B2EE9B10021B2A2 /* Debug */,
-				1B46C8D91B2EE9B10021B2A2 /* Release */,
+				1B4D0AD41B3988B80034A83E /* Debug */,
+				1B4D0AD51B3988B80034A83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1B46C8DA1B2EE9B10021B2A2 /* Build configuration list for PBXNativeTarget "SwordfishTests" */ = {
+		1B4D0AD61B3988B80034A83E /* Build configuration list for PBXNativeTarget "SwordfishTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B46C8DB1B2EE9B10021B2A2 /* Debug */,
-				1B46C8DC1B2EE9B10021B2A2 /* Release */,
+				1B4D0AD71B3988B80034A83E /* Debug */,
+				1B4D0AD81B3988B80034A83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1B46C8A71B2EE9B10021B2A2 /* Project object */;
+	rootObject = 1B4D0AA31B3988B80034A83E /* Project object */;
 }

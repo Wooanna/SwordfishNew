@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B46C8AE1B2EE9B10021B2A2"
+               BlueprintIdentifier = "1B4D0AAA1B3988B80034A83E"
                BuildableName = "Swordfish.app"
                BlueprintName = "Swordfish"
                ReferencedContainer = "container:Swordfish.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B46C8CC1B2EE9B10021B2A2"
+               BlueprintIdentifier = "1B4D0AC81B3988B80034A83E"
                BuildableName = "SwordfishTests.xctest"
                BlueprintName = "SwordfishTests"
                ReferencedContainer = "container:Swordfish.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B46C8CC1B2EE9B10021B2A2"
+               BlueprintIdentifier = "1B4D0AC81B3988B80034A83E"
                BuildableName = "SwordfishTests.xctest"
                BlueprintName = "SwordfishTests"
                ReferencedContainer = "container:Swordfish.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B46C8AE1B2EE9B10021B2A2"
+            BlueprintIdentifier = "1B4D0AAA1B3988B80034A83E"
             BuildableName = "Swordfish.app"
             BlueprintName = "Swordfish"
             ReferencedContainer = "container:Swordfish.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B46C8AE1B2EE9B10021B2A2"
+            BlueprintIdentifier = "1B4D0AAA1B3988B80034A83E"
             BuildableName = "Swordfish.app"
             BlueprintName = "Swordfish"
             ReferencedContainer = "container:Swordfish.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B46C8AE1B2EE9B10021B2A2"
+            BlueprintIdentifier = "1B4D0AAA1B3988B80034A83E"
             BuildableName = "Swordfish.app"
             BlueprintName = "Swordfish"
             ReferencedContainer = "container:Swordfish.xcodeproj">
